@@ -15,7 +15,7 @@ chai.use(sinonChai);
 
 describe('Bot', () => {
   it('calling new Bot() with token', () => {
-    const bot = new Bot('effewfw');
+    const bot = new Bot('Watney');
     bot.should.be.an.instanceOf(Bot);
   });
 

@@ -6,7 +6,7 @@ npm install --save slackbase
 
 
 ```js
-const Bot = require('slackbot')
+const Bot = require('slackbase')
   , bot = new Bot('SLACK-TOKEN-HERE')
   ;
 
