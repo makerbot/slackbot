@@ -1,7 +1,7 @@
 {
   "name": "slackbase",
   "description": "MakerBot's base SlackBot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
     "lodash": "^3.10.1",
@@ -24,7 +24,7 @@
   },
   "author": "Greg Walden <greg.walden@makerbot.com> (http://gsw.nyc/)",
   "engines": {
-    "node" : "^4.2.1"
+    "node": "^4.2.1"
   },
   "keywords": [
     "slack",
