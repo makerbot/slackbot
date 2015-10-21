@@ -1,11 +1,10 @@
 {
-  "name": "slackbot",
-  "description": "MakerBot's basic SlackBot",
+  "name": "slackbase",
+  "description": "MakerBot's base SlackBot",
   "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
     "lodash": "^3.10.1",
-    "log": "^1.4.0",
     "shortid": "^2.2.2",
     "slack-client": "^1.4.1"
   },
@@ -18,11 +17,20 @@
   "scripts": {
     "test": "mocha"
   },
-  "private": true,
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git://github.com/makerbot/slackbot.git"
   },
-  "author": "Greg Walden <greg.walden@makerbot.com>"
+  "author": "Greg Walden <greg.walden@makerbot.com> (http://gsw.nyc/)",
+  "engines": {
+    "node" : "^4.2.1"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "slackbot",
+    "chat",
+    "chatbot"
+  ]
 }
