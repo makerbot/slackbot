@@ -10,7 +10,7 @@ const Bot = require('slackbase')
   , bot = new Bot('SLACK-TOKEN-HERE')
   ;
 
-bot.listen(/^good night/).permit(message => {
+bot.listen(/good night/).permit(message => {
   // only reply if after 17:00 and message is a DM
   const now = new Date();
   return message.isDM() && now.getHours >= 17;
