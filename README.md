@@ -28,3 +28,8 @@ cd slackbot
 npm install
 npm test
 ```
+
+### FAQ
+*Why is the NPM package titled `slackbase` but the repo `slackbot`?*
+
+Well, every variation of `slackbot` is already claimed on NPM, but `slackbot` makes the most sense for what this project is.
