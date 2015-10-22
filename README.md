@@ -30,6 +30,7 @@ cd slackbot
 npm install
 npm test
 ```
+Can also see status on https://travis-ci.org/makerbot/slackbot
 
 ### FAQ
 *Why is the NPM package titled `slackbase` but the repo `slackbot`?*
