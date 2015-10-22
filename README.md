@@ -1,3 +1,5 @@
+![Build status](https://travis-ci.org/makerbot/slackbot.svg)
+
 ### Usage by example
 
 ```sh
