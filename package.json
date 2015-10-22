@@ -5,17 +5,18 @@
   "main": "index.js",
   "dependencies": {
     "lodash": "^3.10.1",
-    "shortid": "^2.2.2",
     "slack-client": "^1.4.1"
   },
   "devDependencies": {
-    "chai": "*",
-    "mocha": "*",
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "license": "ISC",
   "repository": {
