@@ -1,4 +1,4 @@
-![Build status](https://travis-ci.org/makerbot/slackbot.svg)
+![Build status](https://travis-ci.org/makerbot/slackbot.svg) ![Dependencies](https://david-dm.org/makerbot/slackbot.svg)
 
 ### Usage by example
 
