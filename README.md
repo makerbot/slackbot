@@ -16,7 +16,7 @@ const Bot = require('slackbase')
 bot.listen(/good night/).permit(message => {
   // only reply if after 17:00 and message is a DM
   const now = new Date();
-  return message.isDM() && now.getHours >= 17;
+  return message.isDM() && now.getHours() >= 17;
 }).action(message => {
   const user = message.getUser();
   const channel = message.getChannel();
