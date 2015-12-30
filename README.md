@@ -1,4 +1,4 @@
-[![Build status](https://travis-ci.org/makerbot/slackbot.svg)](https://travis-ci.org/makerbot/slackbot) 
+[![Build status](https://travis-ci.org/makerbot/slackbot.svg?branch=master)](https://travis-ci.org/makerbot/slackbot) 
 [![Dependencies](https://david-dm.org/makerbot/slackbot.svg)](https://david-dm.org/makerbot/slackbot)
 
 ### Usage by example
