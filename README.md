@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/slackbase.svg)](https://badge.fury.io/js/slackbase)
 [![Build status](https://travis-ci.org/makerbot/slackbot.svg?branch=master)](https://travis-ci.org/makerbot/slackbot) 
 [![Dependencies](https://david-dm.org/makerbot/slackbot.svg)](https://david-dm.org/makerbot/slackbot)
 
